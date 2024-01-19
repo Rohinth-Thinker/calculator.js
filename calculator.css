@@ -1,0 +1,42 @@
+.main-container {
+    outline: 5px solid lightcoral;
+    width: 600px;
+    height: 551px;
+}
+
+.output {
+    width: 600px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 50px;
+}
+
+.output-show {
+    margin-right: 25px;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+}
+
+.input > button {
+    border-color: rgb(167, 167, 167);
+    height: 80px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.input > button:active {
+    border: 2px solid lightcoral;
+}
+
+
+body {
+    background-color: black;
+}
